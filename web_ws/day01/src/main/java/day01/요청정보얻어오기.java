@@ -28,7 +28,7 @@ public class 요청정보얻어오기  extends HttpServlet{
 		 String protocol = req.getProtocol() ;		 
 		 //parameter?
 		 //클라이언트가 서버쪽에 보낸 데이터 얻어오기
-		 String name=  req.getParameter( "name" ); 	  //키이름	 
+		 String name=  req.getParameter( "name" ); 	  //키이름	 ?name=우주연 ?q=빵
 		 //프로젝트명(하나의 웹서비스)   얻어오기  
 		 String contextPath = req.getContextPath(); 
 		 
