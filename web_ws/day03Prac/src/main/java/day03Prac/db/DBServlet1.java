@@ -47,7 +47,7 @@ public class DBServlet1 extends HttpServlet{
 			Statement st =con.createStatement();
 			
 			//4. sql 작성
-			String sql = "selec * from acorntbl";
+			String sql = "select * from acorntbl";
 			
 			//5. sql 실행하고 결과 얻어오기
 			ResultSet rs = st.executeQuery(sql);

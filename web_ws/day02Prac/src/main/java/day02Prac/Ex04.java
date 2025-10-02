@@ -29,7 +29,7 @@ public class Ex04 extends HttpServlet{
 		
 		//응답, 임의의 책정보
 		PrintWriter out = response.getWriter();
-		Book_04 book = new Book_04("처음해보는 Servlet & Jsp", "오정임", 28000);
+		Book book = new Book("처음해보는 Servlet & Jsp", "오정임", 28000);
 //		out.println(book.toString());
 		
 		out.println("<html>");

@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/cute/img/random")
-public class Ex10 extends HttpServlet{
+public class Ex10_list extends HttpServlet{
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -23,10 +23,10 @@ public class Ex10 extends HttpServlet{
 
         // ArrayList에 이미지 파일명 저장
         ArrayList<String> images = new ArrayList<>();
-        images.add("1.png");
-        images.add("2.png");
-        images.add("3.png");
-        images.add("4.png");
+        images.add("1.jpg");
+        images.add("2.jpg");
+        images.add("3.jpg");
+        images.add("4.jpg");
         
         Random random = new Random();
         int index = random.nextInt(images.size());  

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2>링크 태그로 요청하면 GET요청</h2>
+<p> 링크 a태그로 요청하면 GET요청</p>
+
+<a href="/day04Prac/myservlet">요청</a>
+
+<h2>POST 요청 - form 태그</h2>
+
+<p>
+	action 속성, method 속성<br>
+	action 속성 서블릿매핑이름
+	method 속성 get, post 지정할 수 있다
+</p>
+
+<form action="/day04Prac/myservlet" method="post">
+<input type="text" name="search">
+<button type="submit">검색</button>
+<input type="submit" value="등록">
+</form>
+</body>
+</html>

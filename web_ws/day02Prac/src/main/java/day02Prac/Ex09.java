@@ -15,6 +15,8 @@ public class Ex09 extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		
+		//한글설정
 		response.setCharacterEncoding("utf-8");
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
@@ -27,4 +29,5 @@ public class Ex09 extends HttpServlet{
 		out.println("</body>");
 		out.println("</html>");
 	}
+
 }

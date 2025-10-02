@@ -1,0 +1,27 @@
+day04 10월 2일
+
+-1교시
+MyServlet
+getpost
+Acorn
+test
+
+-2교시
+에이콘 테이블
+에이콘 등록
+
+AcornListServlet
+
+03프랙 DB에서 복붙
+
+-3교시
+회원가입
+AcornReg
+reg
+
+-4교시
+서비스, dao(데이터 베이스 등록)
+AcornService
+//에이콘 학생 등록하기(매서드)
+
+AcornDAO
